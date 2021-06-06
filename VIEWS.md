@@ -13,12 +13,12 @@
 # Widok dostępności stolików
 
 - `/tables`
-  - wybór daty igodziny
+  - wybór daty i godziny
   - tabela z listą rezerwacji oraz wydarzeń
     - kazda kolumna będzie jednym stolikiem
     - kazdy wiersz = 30 minut
     - ma przypominać widok tygodnia w kalendarzu Google, gdzie w kolumnach zamiast dni są rózne stoliki
-    - po kliknięciu rezerwacji lub iventu, przechodzimy na stronę szczegółów
+    - po kliknięciu rezerwacji lub eventu, przechodzimy na stronę szczegółów
 - `/tables/booking/:id`
   - zawiera wszystkie informacje dotyczące rezerwacji
   - umozliwia edycję i zapisanie zmian
