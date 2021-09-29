@@ -9,8 +9,6 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
-import Grid from '@material-ui/core/Grid';
 import DateFnsUtils from '@date-io/date-fns';
 import { MuiPickersUtilsProvider, KeyboardTimePicker, KeyboardDatePicker } from '@material-ui/pickers';
 
@@ -245,6 +243,7 @@ const Tables = () => {
           }}
         />
       </MuiPickersUtilsProvider>
+      <h2 className={styles.title}>RESERVATIONS AND EVENTS LIST</h2>
       <Table>
         <TableHead>
           <TableRow>

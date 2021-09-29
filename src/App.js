@@ -34,10 +34,10 @@ function App() {
               <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
               <Route exact path={process.env.PUBLIC_URL + '/login'} component={Login} />
               <Route exact path={process.env.PUBLIC_URL + '/tables'} component={Tables} />
-              <Route exact path={process.env.PUBLIC_URL + '/tables/booking/:id'} component={BookedTable} />
               <Route exact path={process.env.PUBLIC_URL + '/tables/booking/new'} component={NewBooking} />
-              <Route exact path={process.env.PUBLIC_URL + '/tables/events/:id'} component={BookedEvents} />
+              <Route exact path={process.env.PUBLIC_URL + '/tables/booking/:id'} component={BookedTable} />
               <Route exact path={process.env.PUBLIC_URL + '/tables/events/new'} component={NewEvent} />
+              <Route exact path={process.env.PUBLIC_URL + '/tables/events/:id'} component={BookedEvents} />
               <Route exact path={process.env.PUBLIC_URL + '/waiter'} component={Waiter} />
               <Route exact path={process.env.PUBLIC_URL + '/waiter/order/new'} component={NewOrder} />
               <Route exact path={process.env.PUBLIC_URL + '/waiter/order/:id'} component={OrderDetails} />
