@@ -255,12 +255,12 @@ const Tables = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {demoContent.map((table) => (
-            <TableRow key={table.hour}>
+          {demoContent.map((row) => (
+            <TableRow key={row.hour}>
               <TableCell component='th' scope='row'>
-                {table.hour}
+                {row.hour}
               </TableCell>
-              {table.tables.map((table) => (
+              {row.tables.map((table) => (
                 <TableCell className={styles.table} key={table.id}>
                   {renderActions(table.status)}
                 </TableCell>
